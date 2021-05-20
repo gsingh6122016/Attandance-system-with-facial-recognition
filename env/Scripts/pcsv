@@ -1,0 +1,7 @@
+#!c:\users\gsing\desktop\face-recognition-attendance-system-master\env\scripts\python.exe
+import pcsv
+from jtutils import fix_broken_pipe
+
+if __name__ == "__main__":
+    fix_broken_pipe()
+    pcsv.pcsv()
