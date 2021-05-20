@@ -9,13 +9,13 @@ newest = files[-1]
 filename = newest
 sub = "Attendance Report for " + str(date)
 # mail information
-yag = yagmail.SMTP("youremail@email.com", "password")
+yag = yagmail.SMTP("gsingh6122016@gmail.com", "9547156583")
 
 # sent the mail
 yag.send(
-    to=receiver,
+    to="hashir.imam99@gmail.com",
     subject=sub, # email subject
-    contents=body,  # email body
+    contents="attendence",  # email body
     attachments= filename  # file attached
 )
 print("Email Sent!")
